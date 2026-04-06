@@ -16,21 +16,17 @@ public class PracticeProblem{
 	public static String evenOrOdd(int num){
 	    String result;
 	    if (num % 2 == 0){
-	        result = "Even";
-	    } else {
-	        result = "Odd";
+	        return "Even";
 	    }
-	    return result;
+	    return "Odd";
 	}
 	
 	public static String teacherOrStudent(String input){
 	    String result;
 	    if (input == "Kalisz"){
-	        result = "Teacher";
-	    } else {
-	        result = "Student";
+	        return "Teacher";
 	    }
-	    return result;
+	    return "Student";
 	}
 	
 	public static int fartherFromZero(int num){
